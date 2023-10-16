@@ -6,10 +6,9 @@ for that extension type, it throws it into that folder. Shortcut is nice to peri
 to clean up desktop. 
 
 
-Later on will add a config file option to pick what files to clean up,
-currently it will just look for the following:
+The first time you run the .exe, it creates 'extensions.config' in the same directory the .exe is stored, if you are given the .exe and run it, it still creates the config in the same directory it was run in.
+
+If 'extensions.config' does not exist, it will just create a file with basic extensions I chose for now: 
 
 '.pdf', '.txt', '.rpt', '.rdl','.xls', '.xlsx', '.doc', '.docx'
 
-I will eventually make it so that it looks for a config file in a specific location
-and you can add extension types for it to look for. 

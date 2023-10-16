@@ -1,17 +1,29 @@
 import os
 import shutil
 from datetime import datetime
+import configparser
+
+def check_or_create_config():
+    config_path = 'extensions.config'
+    if not os.path.exists(config_path):
+        # Create a default config file if none exists
+        config = configparser.ConfigParser()
+        config['Settings'] = {
+            'extensions': '.pdf,.txt,.rpt,.rdl,.xls,.xlsx,.doc,.docx'
+        }
+        with open(config_path, 'w') as configfile:
+            config.write(configfile)
+    return config_path
 
 def organize_desktop():
-    # Path to desktop
-    desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
+    config_path = check_or_create_config()
+    # Read configuration
+    config = configparser.ConfigParser()
+    config.read(config_path)
+    extensions_to_organize = config.get('Settings', 'extensions').split(',')
 
-    # List of file extensions to organize..I would later like to add a way to have a
-    # config file that the exe looks for and you can config your own file extension types
-    extensions_to_organize = [
-        '.pdf', '.txt', '.rpt', '.rdl',
-        '.xls', '.xlsx', '.doc', '.docx'
-    ]
+    # Path to your desktop
+    desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
 
     # Get today's date to create a subfolder for archiving
     today_date = datetime.today().strftime('%Y-%m-%d')
