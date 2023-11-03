@@ -1,0 +1,9 @@
+*Updates*
+
+Version 1.0.1 - 
+
+-- Adding debugging logging
+
+Version 1.0.0 -
+
+-- Initial release. Config file created for user in same directory so they can decide what files to organize based on file extension. 

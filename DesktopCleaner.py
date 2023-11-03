@@ -39,8 +39,7 @@ console_handler.setFormatter(formatter)
 # log the header information
 logging.info(f'Log Start: {start_time}')
 script_name = "Desktop Cleaner"
-logging.info(f"{script_name}")
-script_version = '1.0.0'
+script_version = '1.0.1'
 logging.info(f'Script Name: {script_name}')
 logging.info(f'Script Version: {script_version}')
 logging.info(f'Workstation: {workstation_name}')
@@ -142,4 +141,4 @@ def organize_desktop():
 organize_desktop()
 logging.info('Script finished.')
 logging.info('-' * 50)  # log a separator line
-logging.info('-' * 50)  # log another separator line
+logging.info('-' * 50)  # log another separator line for end incase its run again on same day to easily seperate 
