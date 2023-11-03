@@ -61,10 +61,10 @@ def check_or_create_config():
             config.get('Settings', 'extensions')
         except configparser.NoSectionError:
             print("Error: Missing '[Settings]' section in 'extensions.config'.")
-            return None  # Or handle this error in some other way
+            return None  
         except configparser.NoOptionError:
             print("Error: Missing 'extensions' option in '[Settings]' section of 'extensions.config'.")
-            return None  # Or handle this error in some other way
+            return None 
     else:
         # Create a default config file if none exists
         config['Settings'] = {
