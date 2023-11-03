@@ -1,0 +1,41 @@
+2023-11-02 21:36:54 - INFO - Script finished.
+2023-11-02 21:36:54 - INFO - Script started.
+2023-11-02 21:36:54 - INFO - Organizing 19 items on the desktop...
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\AddressBook.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\AddressBook.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Adobe Photoshop 2022.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Adobe Photoshop 2022.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Daedalus Mainnet.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Daedalus Mainnet.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\desktop.ini
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\desktop.ini
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Discord.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Discord.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Epic Games Launcher.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Epic Games Launcher.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Fortnite.url
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Fortnite.url
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\IPFS Desktop.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\IPFS Desktop.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Jagex Launcher.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Jagex Launcher.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Kali.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Kali.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\MultiVersus.url
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\MultiVersus.url
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\NordVPN.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\NordVPN.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\PDF
+2023-11-02 21:36:54 - INFO - Skipping directory: C:\Users\miker\Desktop\PDF
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Stray.url
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Stray.url
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\test5.txt
+2023-11-02 21:36:54 - INFO - Moving C:\Users\miker\Desktop\test5.txt to C:\Users\miker\Desktop\TXT\2023-11-02\test5.txt
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\TXT
+2023-11-02 21:36:54 - INFO - Skipping directory: C:\Users\miker\Desktop\TXT
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Valheim.url
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Valheim.url
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Visual Studio Code.lnk
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Visual Studio Code.lnk
+2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\while True learn().url
+2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\while True learn().url

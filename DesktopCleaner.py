@@ -5,15 +5,16 @@ import configparser
 import logging
 
 # logging
-today_date = datetime.today().strftime('%Y-%m-%d') 
-script_dir = os.path.dirname(os.path.abspath(__file__))  #gets dir where script is located
+today_date = datetime.today().strftime('%Y-%m-%d')
 
-log_dir = os.path.join(script_dir, today_date)
-os.makedirs(log_dir, exist_ok=True)
+log_filename = f'Log-{today_date}.txt'
 
-log_path = os.path.join(log_dir, 'log.txt')
-
-logging.basicConfig(filename='log.txt', level=logging.DEBUG)
+logging.basicConfig(
+    filename=log_filename,
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
 
 
 def check_or_create_config():
