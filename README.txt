@@ -12,3 +12,6 @@ If 'extensions.config' does not exist, it will just create a file with basic ext
 
 '.pdf', '.txt', '.rpt', '.rdl','.xls', '.xlsx', '.doc', '.docx'
 
+
+
+*** RUN AS ADMINISTRATOR ***
