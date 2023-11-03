@@ -2,6 +2,19 @@ import os
 import shutil
 from datetime import datetime
 import configparser
+import logging
+
+# logging
+today_date = datetime.today().strftime('%Y-%m-%d') 
+script_dir = os.path.dirname(os.path.abspath(__file__))  #gets dir where script is located
+
+log_dir = os.path.join(script_dir, today_date)
+os.makedirs(log_dir, exist_ok=True)
+
+log_path = os.path.join(log_dir, 'log.txt')
+
+logging.basicConfig(filename='log.txt', level=logging.DEBUG)
+
 
 def check_or_create_config():
     config_path = 'extensions.config'
@@ -27,9 +40,11 @@ def check_or_create_config():
     return config_path
 
 def organize_desktop():
+    logging.info('Script started.')
     config_path = check_or_create_config()
     if config_path is None:
         print("Error: Could not read or create a valid 'extensions.config' file.")
+        logging.error("Error: Could not read or create a valid 'extensions.config' file.")
         return  # Exit the function if the config file is missing or invalid
     
     # Read configuration
@@ -42,6 +57,7 @@ def organize_desktop():
 
     # Provide feedback about the number of items to be organized
     print(f"Organizing {len(os.listdir(desktop_path))} items on the desktop...")
+    logging.info(f"Organizing {len(os.listdir(desktop_path))} items on the desktop...")
 
     # Get today's date to create a subfolder for archiving
     today_date = datetime.today().strftime('%Y-%m-%d')
@@ -49,10 +65,12 @@ def organize_desktop():
     for item in os.listdir(desktop_path):
         item_path = os.path.join(desktop_path, item)
         print(f"Processing item: {item_path}")  # Debugging print statement
+        logging.info(f"Processing item: {item_path}")
 
         # Skip if item is a directory
         if os.path.isdir(item_path):
             print(f"Skipping directory: {item_path}")  # Debugging print statement
+            logging.info(f"Skipping directory: {item_path}")
             continue
 
         # Get file extension
@@ -61,6 +79,7 @@ def organize_desktop():
         # Skip files whose extension is not in the list
         if file_extension not in extensions_to_organize:
             print(f"Skipping file with unrecognized extension: {item_path}")  # Debugging print statement
+            logging.info(f"Skipping file with unrecognized extension: {item_path}")  # Debugging logging statement
             continue
 
         # Determine the destination directory
@@ -74,7 +93,11 @@ def organize_desktop():
         # Move the file
         destination_path = os.path.join(date_subfolder, item)
         print(f"Moving {item_path} to {destination_path}")  # Debugging print statement
+        logging.info(f"Moving {item_path} to {destination_path}")  # Debugging logging statement
         shutil.move(item_path, destination_path)
+
+
+logging.info('Script finished.')
 
 # Call the function to organize the desktop
 organize_desktop()
