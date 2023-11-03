@@ -5,15 +5,32 @@ import configparser
 
 def check_or_create_config():
     config_path = 'extensions.config'
-    if not os.path.exists(config_path):
+    config = configparser.ConfigParser()
+    if os.path.exists(config_path):
+        config.read(config_path)
+        try:
+            # Attempt to read the extensions option to check the file's format
+            config.get('Settings', 'extensions')
+        except configparser.NoSectionError:
+            print("Error: Missing '[Settings]' section in 'extensions.config'.")
+            return None  # Or handle this error in some other way
+        except configparser.NoOptionError:
+            print("Error: Missing 'extensions' option in '[Settings]' section of 'extensions.config'.")
+            return None  # Or handle this error in some other way
+    else:
         # Create a default config file if none exists
-        config = configparser.ConfigParser()
         config['Settings'] = {
-            'extensions': '.pdf,.txt,.rpt,.rdl,.xls,.xlsx,.doc,.docx'
+            'extensions': '.pdf,.csv,.txt,.rpt,.rdl,.xls,.xlsx,.doc,.docx, .xml'
         }
         with open(config_path, 'w') as configfile:
             config.write(configfile)
     return config_path
+
+def organize_desktop():
+    config_path = check_or_create_config()
+    if config_path is None:
+        print("Error: Could not read or create a valid 'extensions.config' file.")
+        return  # Exit the function if the config file is missing or invalid
 
 def organize_desktop():
     config_path = check_or_create_config()
@@ -24,6 +41,9 @@ def organize_desktop():
 
     # Path to your desktop
     desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
+
+    # Provide feedback about the number of items to be organized
+    print(f"Organizing {len(os.listdir(desktop_path))} items on the desktop...")
 
     # Get today's date to create a subfolder for archiving
     today_date = datetime.today().strftime('%Y-%m-%d')

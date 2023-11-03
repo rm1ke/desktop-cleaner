@@ -1,4 +1,4 @@
-('C:\\Code\\python\\desktop_cleaner\\build\\DesktopCleaner\\PYZ-00.pyz',
+('C:\\Code\\python\\desktop_cleaner\\build\\desktopcleaner\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\_compat_pickle.py',
