@@ -1,41 +1,72 @@
-2023-11-02 21:36:54 - INFO - Script finished.
-2023-11-02 21:36:54 - INFO - Script started.
-2023-11-02 21:36:54 - INFO - Organizing 19 items on the desktop...
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\AddressBook.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\AddressBook.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Adobe Photoshop 2022.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Adobe Photoshop 2022.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Daedalus Mainnet.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Daedalus Mainnet.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\desktop.ini
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\desktop.ini
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Discord.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Discord.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Epic Games Launcher.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Epic Games Launcher.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Fortnite.url
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Fortnite.url
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\IPFS Desktop.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\IPFS Desktop.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Jagex Launcher.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Jagex Launcher.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Kali.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Kali.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\MultiVersus.url
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\MultiVersus.url
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\NordVPN.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\NordVPN.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\PDF
-2023-11-02 21:36:54 - INFO - Skipping directory: C:\Users\miker\Desktop\PDF
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Stray.url
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Stray.url
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\test5.txt
-2023-11-02 21:36:54 - INFO - Moving C:\Users\miker\Desktop\test5.txt to C:\Users\miker\Desktop\TXT\2023-11-02\test5.txt
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\TXT
-2023-11-02 21:36:54 - INFO - Skipping directory: C:\Users\miker\Desktop\TXT
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Valheim.url
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Valheim.url
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\Visual Studio Code.lnk
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Visual Studio Code.lnk
-2023-11-02 21:36:54 - INFO - Processing item: C:\Users\miker\Desktop\while True learn().url
-2023-11-02 21:36:54 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\while True learn().url
+2023-11-02 22:31:28 - INFO - Log Start: 2023-11-02 22:31:28
+2023-11-02 22:31:28 - INFO - Desktop Cleaner
+2023-11-02 22:31:28 - INFO - Script Name: Desktop Cleaner
+2023-11-02 22:31:28 - INFO - Script Version: 1.0.0
+2023-11-02 22:31:28 - INFO - Workstation: XPS15
+2023-11-02 22:31:28 - INFO - System Info: Windows-10-10.0.22621-SP0
+2023-11-02 22:31:28 - INFO - Processor Info: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+2023-11-02 22:31:28 - INFO - Python Version: 3.9.13
+2023-11-02 22:31:28 - INFO - OS Version: Windows-10-10.0.22621-SP0
+2023-11-02 22:31:28 - INFO - Desktop Path: C:\Users\miker\Desktop
+2023-11-02 22:31:28 - INFO - --------------------------------------------------
+2023-11-02 22:31:28 - INFO - Script started.
+2023-11-02 22:31:28 - INFO - Organizing 22 items on the desktop...
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\AddressBook.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Adobe Photoshop 2022.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Daedalus Mainnet.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\desktop.ini
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Discord.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Epic Games Launcher.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Fortnite.url
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\IPFS Desktop.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Jagex Launcher.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Kali.lnk
+2023-11-02 22:31:28 - INFO - ***** Moving C:\Users\miker\Desktop\Log-2023-11-02 - Copy (2).txt to C:\Users\miker\Desktop\TXT\2023-11-02\Log-2023-11-02 - Copy (2).txt *****
+2023-11-02 22:31:28 - INFO - ***** Moving C:\Users\miker\Desktop\Log-2023-11-02 - Copy (3).txt to C:\Users\miker\Desktop\TXT\2023-11-02\Log-2023-11-02 - Copy (3).txt *****
+2023-11-02 22:31:28 - INFO - ***** Moving C:\Users\miker\Desktop\Log-2023-11-02 - Copy.txt to C:\Users\miker\Desktop\TXT\2023-11-02\Log-2023-11-02 - Copy.txt *****
+2023-11-02 22:31:28 - INFO - ***** Moving C:\Users\miker\Desktop\Log-2023-11-02.txt to C:\Users\miker\Desktop\TXT\2023-11-02\Log-2023-11-02.txt *****
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\MultiVersus.url
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\NordVPN.lnk
+2023-11-02 22:31:28 - INFO - Skipping directory: C:\Users\miker\Desktop\PDF
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Stray.url
+2023-11-02 22:31:28 - INFO - Skipping directory: C:\Users\miker\Desktop\TXT
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Valheim.url
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Visual Studio Code.lnk
+2023-11-02 22:31:28 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\while True learn().url
+2023-11-02 22:31:28 - INFO - Script finished.
+2023-11-02 22:31:28 - INFO - --------------------------------------------------
+2023-11-02 22:31:28 - INFO - --------------------------------------------------
+2023-11-02 22:31:46 - INFO - Log Start: 2023-11-02 22:31:46
+2023-11-02 22:31:46 - INFO - Desktop Cleaner
+2023-11-02 22:31:46 - INFO - Script Name: Desktop Cleaner
+2023-11-02 22:31:46 - INFO - Script Version: 1.0.0
+2023-11-02 22:31:46 - INFO - Workstation: XPS15
+2023-11-02 22:31:46 - INFO - System Info: Windows-10-10.0.22621-SP0
+2023-11-02 22:31:46 - INFO - Processor Info: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+2023-11-02 22:31:46 - INFO - Python Version: 3.9.13
+2023-11-02 22:31:46 - INFO - OS Version: Windows-10-10.0.22621-SP0
+2023-11-02 22:31:46 - INFO - Desktop Path: C:\Users\miker\Desktop
+2023-11-02 22:31:46 - INFO - --------------------------------------------------
+2023-11-02 22:31:46 - INFO - Script started.
+2023-11-02 22:31:46 - INFO - Organizing 18 items on the desktop...
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\AddressBook.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Adobe Photoshop 2022.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Daedalus Mainnet.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\desktop.ini
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Discord.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Epic Games Launcher.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Fortnite.url
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\IPFS Desktop.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Jagex Launcher.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Kali.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\MultiVersus.url
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\NordVPN.lnk
+2023-11-02 22:31:46 - INFO - Skipping directory: C:\Users\miker\Desktop\PDF
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Stray.url
+2023-11-02 22:31:46 - INFO - Skipping directory: C:\Users\miker\Desktop\TXT
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Valheim.url
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\Visual Studio Code.lnk
+2023-11-02 22:31:46 - INFO - Skipping file with unrecognized extension: C:\Users\miker\Desktop\while True learn().url
+2023-11-02 22:31:46 - INFO - Script finished.
+2023-11-02 22:31:46 - INFO - --------------------------------------------------
+2023-11-02 22:31:46 - INFO - --------------------------------------------------
