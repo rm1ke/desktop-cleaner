@@ -31,9 +31,7 @@ def organize_desktop():
     if config_path is None:
         print("Error: Could not read or create a valid 'extensions.config' file.")
         return  # Exit the function if the config file is missing or invalid
-
-def organize_desktop():
-    config_path = check_or_create_config()
+    
     # Read configuration
     config = configparser.ConfigParser()
     config.read(config_path)
@@ -50,9 +48,11 @@ def organize_desktop():
 
     for item in os.listdir(desktop_path):
         item_path = os.path.join(desktop_path, item)
+        print(f"Processing item: {item_path}")  # Debugging print statement
 
         # Skip if item is a directory
         if os.path.isdir(item_path):
+            print(f"Skipping directory: {item_path}")  # Debugging print statement
             continue
 
         # Get file extension
@@ -60,6 +60,7 @@ def organize_desktop():
 
         # Skip files whose extension is not in the list
         if file_extension not in extensions_to_organize:
+            print(f"Skipping file with unrecognized extension: {item_path}")  # Debugging print statement
             continue
 
         # Determine the destination directory
@@ -71,7 +72,9 @@ def organize_desktop():
             os.makedirs(date_subfolder)
 
         # Move the file
-        shutil.move(item_path, os.path.join(date_subfolder, item))
+        destination_path = os.path.join(date_subfolder, item)
+        print(f"Moving {item_path} to {destination_path}")  # Debugging print statement
+        shutil.move(item_path, destination_path)
 
 # Call the function to organize the desktop
 organize_desktop()
